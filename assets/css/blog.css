@@ -1,0 +1,142 @@
+
+
+
+
+body {
+
+  margin: 0;
+  font-size: 1,4em;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  line-height: 30px;
+  overflow: none;
+  padding: 0;
+  background-color: bisque;
+  
+
+}
+
+body .container{
+
+  position: relative;
+}
+.element {
+  margin: 0 10;
+  transform: translate3d(0, 0, 0);
+  z-index: 50;
+  display: block;
+  
+}
+
+.ccontainer{
+
+  padding: 0;
+  margin: 20;
+
+}
+
+#main-header {
+background-color: coral;
+padding:0;
+;
+
+
+
+}
+h1 {
+  margin: 0;
+  padding: 4%;
+}
+
+#main-footer{
+
+  background-color: rgb(19, 12, 10);
+  color: aliceblue;
+
+}
+
+
+ nav .container{
+
+ 
+  
+ 
+
+  background-color: rgb(0, 0, 0);
+
+
+}
+
+ul{
+  display: reletive;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  
+  
+}
+
+li{
+  
+list-style: none;
+color: white;
+list-style: none;
+display: inline;
+padding-left: 4%;
+
+}
+
+nav a{
+text-decoration: none;
+color: aliceblue;
+}
+
+ nav li :hover{
+
+ color: rgb(219, 0, 0);
+ 
+}
+
+
+.p-footer{
+  margin: 0;
+}
+
+section {
+
+ background-color: bisque;
+ 
+}
+
+section div {
+
+
+margin-left: 4%;
+margin-right: 2%;
+margin-top: 3%;
+
+border: solid;
+border-radius: 12px;
+border-top-width: 12px;
+border-color: rgb(83, 35, 35);
+
+
+}
+
+aside .container{
+
+  margin-left: 4%;
+  margin-right: 2%;
+  margin-top: 4%;
+  
+  border: solid;
+  border-radius: 12px;
+  border-top-width: 12px;
+  border-color: rgb(83, 35, 35);
+  margin-bottom: 3%;
+
+}
+
+
+footer{
+  margin-bottom: 0%;
+}
