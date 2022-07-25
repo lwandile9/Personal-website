@@ -1,0 +1,117 @@
+body{
+
+border: 0;
+padding: 0;
+background-color: bisque;
+position: relative;
+
+
+
+}
+
+
+header{
+
+background-color: chocolate;
+padding-top: 3%;
+padding-left: 4%;
+
+
+
+}
+
+nav{
+  background-color: black;
+  padding-top: 0%;
+  color: aliceblue;
+  
+}
+
+nav ul{
+
+list-style: none;
+
+
+}
+
+.mainNavBar{
+
+;
+}
+
+nav li{
+  text-align: justify;
+  
+}
+
+
+
+form button{
+
+
+  background-color: coral;
+  color: aliceblue;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5%;
+  line-height: 100%;
+
+}
+
+form .btnSubmit :hover{
+
+background-color: rgb(250, 5, 5);
+color: brown;
+
+
+}
+
+
+
+SbtnSubmit:visited{
+
+  color: coral;
+}
+
+
+ .MainForm{
+   
+   padding-left: 2%;
+   padding-right: 30%;
+   padding-top: 2%;
+   border-radius: 17%;
+
+
+ }
+form{
+    background-color: rgb(211, 198, 193);
+    padding-left: 1%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+
+.mainFooter{
+  background-color: black;
+  color: aliceblue;
+  padding-left: 12%;
+  
+}
+a{
+
+  color: aliceblue;
+  font-style: normal;
+  text-decoration: none;
+
+}
+
+a:hover{
+
+  background-color:coral
+  
+}
+
+
+
+
+
