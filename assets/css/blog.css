@@ -1,142 +1,211 @@
+*{
 
-
-
-
-body {
-
-  margin: 0;
-  font-size: 1,4em;
-  font-family: 'Arial Narrow', Arial, sans-serif;
-  line-height: 30px;
-  overflow: none;
-  padding: 0;
-  background-color: bisque;
-  
-
+  box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 }
 
-body .container{
 
-  position: relative;
-}
-.element {
-  margin: 0 10;
-  transform: translate3d(0, 0, 0);
-  z-index: 50;
-  display: block;
-  
+body{
+
+  background-color: antiquewhite;
+  font-size: 12;
+  line-break: auto;
+  line-height: 16px;
 }
 
-.ccontainer{
 
-  padding: 0;
-  margin: 20;
+ul{
 
+  list-style: none;
 }
 
-#main-header {
+
+.head-Container{
+
+display: flex;
+gap: 30%;
 background-color: coral;
-padding:0;
-;
-
+padding-top:  20px;
+padding-bottom: 10px;
+flex-wrap: nowrap;
+flex-grow: calc(9);
 
 
 }
-h1 {
-  margin: 0;
-  padding: 4%;
+
+
+  /********* header ********/
+
+nav ul{
+
+  display: flex;
+  gap: 12%;
+
+
 }
 
-#main-footer{
 
-  background-color: rgb(19, 12, 10);
+ul img{ 
+  
+  width: 17px;
+  border: none;
+
+}
+
+ul .search{
+
+  display: flex;
+  align-self: flex-start;
+  
+}
+
+ul input{
+   
+  border: none;
+  width: 150%;
+  padding:-0px 3px;
+
+}
+
+
+.search:hover input{
+
+text-transform: uppercase;
+ padding: 0;
+
+
+}
+
+nav a {
+
+  text-decoration: none;
   color: aliceblue;
 
 }
+nav a:hover{
 
+color: brown;
+text-transform: uppercase;
+text-decoration: dotted;
+font-size: 14px;
 
- nav .container{
+}  
+/**** head Media queries *****/
+      
 
- 
+       
+@media screen and (max-width: 550px) {
   
- 
+     
+.head-Container{
 
-  background-color: rgb(0, 0, 0);
+  display: flex;
+  gap: 19%;
+  background-color: coral;
+  padding-top:  10px;
+  padding-bottom: 10px;
 
-
-}
-
-ul{
-  display: reletive;
-  margin: 0;
-  list-style: none;
-  text-decoration: none;
-  
-  
-}
-
-li{
-  
-list-style: none;
-color: white;
-list-style: none;
-display: inline;
-padding-left: 4%;
+  flex-direction: column;
 
 }
 
-nav a{
-text-decoration: none;
-color: aliceblue;
-}
 
- nav li :hover{
-
- color: rgb(219, 0, 0);
- 
-}
-
-
-.p-footer{
-  margin: 0;
-}
-
-section {
-
- background-color: bisque;
- 
-}
-
-section div {
-
-
-margin-left: 4%;
-margin-right: 2%;
-margin-top: 3%;
-
-border: solid;
-border-radius: 12px;
-border-top-width: 12px;
-border-color: rgb(83, 35, 35);
-
+ul input{
+   
+  border: none;
+  width: 70%;
+  padding:-0px 2px;
 
 }
 
-aside .container{
 
-  margin-left: 4%;
-  margin-right: 2%;
+nav ul{
+
+  display: flex;
+  gap: 3%;
   margin-top: 4%;
+  font-size: 15px;
+  padding-left:3px;
   
-  border: solid;
-  border-radius: 12px;
-  border-top-width: 12px;
-  border-color: rgb(83, 35, 35);
-  margin-bottom: 3%;
+ 
+
 
 }
 
+ header h1{
 
-footer{
-  margin-bottom: 0%;
-}
+   font-size: 18px;
+   padding-left: 65%;
+
+ }
+
+
+
+  }
+
+
+
+
+   /********* Seaction ********/
+
+    
+
+
+
+
+
+     .section-container .blog-container{
+     border: solid;
+     background-color: bisque;
+     margin-top: 20px;
+     margin-left: 15px;
+     margin-right: 15px;
+     margin-bottom: 20px;
+     padding-left: 10px;
+     padding-bottom: 5px;
+     padding-top: 5px;
+
+     }
+
+     .blog-container h5{
+       color:blue;
+       text-decoration:dotted;
+       
+       
+
+
+     }
+
+
+
+     @media screen and (min-width: 5000px) {
+
+
+      .section-container{
+       display: flex;
+       flex: 0 0 33.333333%;
+       flex: 0 0 215px
+      
+
+      }
+
+
+
+
+
+     }
+
+
+
+     
+
+
+
+
+
+
+
+
+
+      /********* Footer ********/
