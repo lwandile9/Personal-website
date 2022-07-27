@@ -3,12 +3,19 @@
   box-sizing: border-box;
    margin: 0;
    padding: 0;
+   border: none;
+}
+::after ,::before{
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 
 body{
 
-  background-color: antiquewhite;
+  background-color:aliceblue
   font-size: 12;
   line-break: auto;
   line-height: 16px;
@@ -22,7 +29,9 @@ ul{
 
 
 .head-Container{
-
+  position: fixed;
+  width: 100%;
+  align-items: center;
 display: flex;
 gap: 30%;
 background-color: coral;
@@ -90,7 +99,12 @@ text-transform: uppercase;
 text-decoration: dotted;
 font-size: 14px;
 
-}  
+} 
+
+
+
+
+
 /**** head Media queries *****/
       
 
@@ -133,10 +147,12 @@ nav ul{
 
 }
 
- header h1{
+ header h4{
 
    font-size: 18px;
    padding-left: 65%;
+   font-size: larger;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
  }
 
@@ -157,23 +173,39 @@ nav ul{
 
      .section-container .blog-container{
      border: solid;
-     background-color: bisque;
-     margin-top: 20px;
+     border-color: coral;
+     background-color: rgba(240, 232, 218, 0.923);
+     margin-top: 0px;
      margin-left: 15px;
      margin-right: 15px;
      margin-bottom: 20px;
      padding-left: 10px;
      padding-bottom: 5px;
-     padding-top: 5px;
+     padding-top: 55px;
+     font-size: 12;
+     line-break: 1,4;
+     line-height: 1.5;
+     font-family: Arial, sans-serif;
+     
+     
 
      }
 
-     .blog-container h5{
+
+     .blog-container h6{
        color:blue;
        text-decoration:dotted;
+       font-family: 'Arial Narrow', Arial, sans-serif;
+       border-bottom: 10px;
        
-       
+      
+     }
 
+     
+     .blog-container h5{
+     
+      text-decoration:wavy;
+      font-family:'Arial Narrow', Arial, sans-serif;
 
      }
 
