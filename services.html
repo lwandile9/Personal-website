@@ -27,7 +27,7 @@ Services
       <ul>
           <Li><a href="index.html">Home</a></Li>
            <Li> <a href="">help</a> </Li>
-           <Li> <a href="">Acount <img src="assets/imgs/lwandile in - Copy.jpg" alt=""></a> </Li>
+           <Li> <a href="">Acount <img src="assets/imgs/lwandile in - Copy.jpg" alt="IMG error"></a> </Li>
       
       </ul>
 
@@ -92,7 +92,7 @@ Services
 
     <label for="fname">First name:</label>
     <br>
-    <input type="text" id="fname" name="fname">
+    <input  type="text" id="fname" name="fname">
     <br>
     <label for="lname">Last name:</label>
     <br>
@@ -118,9 +118,15 @@ Services
      <textarea rows="5" cols="25" placeholder="Describe the rquired service"></textarea><br>
 
 
-     <button class="btnSubmit">Submit</button>
+     <button onclick="display()" id="btnSubmit" class="btnSubmit" >Submit</button>
 
     <br>
+
+
+    
+    
+    
+
   
 
 
@@ -143,7 +149,7 @@ Services
     
     <p class="">&copy; Copyright <script>document.write(new Date().getFullYear())</script> Made with Love <i class="ti-heart text-danger"></i> By <a href="# ">Lwandile Toto</a></p>
 </div>
-   
+
 <script type = "text/javascript">  
   
   alert ("Thank you for visiting!.." + "please note this site is still under development ");
@@ -151,15 +157,17 @@ Services
 
   function display(){
 
-    alert (messages);
+    alert (name);
 
   }
 
- 
+  var name = document.GetElementById(fname.name)
     
 
 
 </script> 
+
+
 
 </Footer>
 
