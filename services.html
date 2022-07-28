@@ -161,12 +161,23 @@ Services
   if (strFname == ""){
       
       
-    alert ("Hey"+ " " + "Sorry  we did not get your Name! please make sure it is written in the First name box");
-       
-  }else{
-    alert ("Hey"+ " " +  strFname + " " + "Thank you for your query \n The admin will be in touch soon");
+    alert ("Hey"+ " " + "Sorry  we did not get your Name! please make sure it is written in the First name box \n You can Input Your Name in the following prompt");
 
-  }
+  
+    let personName = prompt("Please enter your name");
+    let text;
+    if (personName == null || personName == "") {
+      text = "User cancelled the prompt.";
+    } else {
+      text = "Hello " + person + "! We will Contuct you Soon";
+    }
+          
+  }else{
+    alert ("Hey"+ " " +  strFname + " " + "Thank you for your query \n The admin will be in touch soon ");
+
+    
+
+  }   
 
      
   
