@@ -150,19 +150,30 @@ Services
     <p class="">&copy; Copyright <script>document.write(new Date().getFullYear())</script> Made with Love <i class="ti-heart text-danger"></i> By <a href="# ">Lwandile Toto</a></p>
 </div>
 
-<script type = "text/javascript">  
+<script>  
   
-  alert ("Thank you for visiting!.." + "please note this site is still under development ");
-  var messages ="Submitted ";
 
   function display(){
-
-    alert (name);
+     
+  let txtName= document.getElementById("fname");
+  let strFname = txtName.value;
+ 
+  if (strFname == ""){
+      
+      
+    alert ("Hey"+ " " + "Sorry  we did not get your Name! please make sure it is written in the First name box");
+       
+  }else{
+    alert ("Hey"+ " " +  strFname + " " + "Thank you for your query \n The admin will be in touch soon");
 
   }
 
-  var name = document.GetElementById(fname.name)
-    
+     
+  
+
+  };
+
+ 
 
 
 </script> 
