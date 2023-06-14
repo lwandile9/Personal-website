@@ -1,1 +1,1 @@
-# this is demo project about online services offered by Lwandile toto
+#This is my personal website to showcase my skills and projects
